@@ -49,11 +49,13 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
     }
     public static void main(String[] args) {
         LRUCache<Integer, Object> cache = new LRUCache(4) {{
+
             put(1, "h");
             put(2, "e");
             put(3, "l");
             put(4, "l");
             put(5, "o");
+
         }};
         cache.forEach((k, v) -> System.out.println(k + "==" + v));
     }
