@@ -133,12 +133,13 @@ public class SynchronizedLRUCache<K, V> {
     }
 
     public static void main(String[] args) {
-        SynchronizedLRUCache<Object, Object> cache = new SynchronizedLRUCache<>(4);
-        cache.put(1, 1);
-        cache.put(2, 2);
-        cache.put(3, 3);
-        cache.put(4, 4);
-        cache.put(5, 5);
+        SynchronizedLRUCache<Object, Object> cache = new SynchronizedLRUCache<>(4){{
+            put(1, 1);
+            put(2, 2);
+            put(3, 3);
+            put(4, 4);
+            put(5, 5);
+        }};
         System.out.println(cache);
     }
 }
