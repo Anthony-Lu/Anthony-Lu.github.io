@@ -28,8 +28,8 @@ tags:
 
 - 示例 1：
 
-输入：intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
-输出：Intersected at '8'
+    - 输入：intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
+    - 输出：Intersected at '8'
 
 
 ######  进阶：你能否设计一个时间复杂度 O(n) 、仅用 O(1) 内存的解决方案？
@@ -46,7 +46,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 给你两个单链表的头节点 headA 和 headB ，请你找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 null 。
+ * 给你两个单链表的头节点 headA 和 headB 
+ * 请你找出并返回两个单链表相交的起始节点。
+ * 如果两个链表没有交点，返回 null 。
  * Created by luxb on 2021/6/27
  */
 public class GetIntersectionNode {

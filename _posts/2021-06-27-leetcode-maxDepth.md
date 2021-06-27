@@ -27,15 +27,8 @@ tags:
 
 - 示例：
 
-输入: 给定二叉树 [3,9,20,null,null,15,7]，
->
->  3
-> /  \
-> 9    20
-> /  \
-> 15  7
->
-输出：返回它的最大深度 3 。
+    -   输入: 给定二叉树 [3,9,20,null,null,15,7]，
+    -   输出：返回它的最大深度 3 。
 
 来源：力扣（LeetCode）
 链接：[https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
