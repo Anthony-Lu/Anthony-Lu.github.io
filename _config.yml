@@ -13,7 +13,7 @@ github_repo: "https://github.com/Anthony-Lu/Anthony-Lu.github.io.git" # you code
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "stay hungry,stay foolish"
 sidebar-avatar: /img/post-bg-BJJ.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
-
+timezone: Asia/Shanghai
 
 
 # SNS settings
